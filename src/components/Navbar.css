@@ -1,0 +1,80 @@
+.navbar-container{
+    background-color: #0facf1;
+    display: flex;
+    justify-content: space-around;
+    height: 74px;
+    padding: 3px;
+}
+
+.Logo{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+    padding: 25px 20px;
+}
+
+.menu-icon{
+        width: 1em;
+        padding: 19px 0px;
+        font-size: calc(1em + 20px);
+        float: right;
+}
+
+.menu-icon svg{
+    color: white;
+}
+
+.menu-bars{
+    margin-left: 10rem;
+    font-size: 2rem !important;
+    background: none;
+}
+
+.menu-bars path{
+    stroke: white;
+}
+
+.nav-menu{
+    background-color: black;
+    position: fixed;
+    opacity: 93%;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    transition: 850ms;
+    left: -100%;
+}
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.nav-text{
+    color: transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.nav-text a{
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+}
+
+.nav-text a:hover{
+    color: rgb(107, 106, 106);
+}
+
+@media (max-width: 800px)
+{
+    .Logo{
+        margin-top: -16px;
+    }
+}
